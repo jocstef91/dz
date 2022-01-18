@@ -51,7 +51,7 @@ public class Racun {
 	
 	public void promeniStanje(int x) {
 		if((this.stanje-x)>0) {
-			this.stanje=this.stanje-x;
+			this.stanje=this.stanje+x;
 		}
 	}
 	
