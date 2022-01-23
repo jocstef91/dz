@@ -30,7 +30,7 @@ public class Magacioner extends Radnik {
 	@Override
 	public double plata() {
 		
-		return this.prosek()/(this.sektor.size()+1);
+		return this.prosek()*(this.sektor.size());
 		
 		}
 	
