@@ -71,7 +71,7 @@ public class Staklena extends Ambalaza{
 		System.out.println("Naziv: " + super.artikl);
 		System.out.println("Neto: " + super.neto);
 		System.out.println("Bruto: " + super.bruto);
-		System.out.println("Naziv: " + this.cena());
+		System.out.println("Cena: " + this.cena());
 	}
 
 	

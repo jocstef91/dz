@@ -39,5 +39,9 @@ public class korpa {
 		}
 		return cena-popust;
 	}
+	
+	public double cenaPopust(Kartica kartica) {
+		return this.cenaSaPopustom(kartica.getPopust());
+	}
 		
 }

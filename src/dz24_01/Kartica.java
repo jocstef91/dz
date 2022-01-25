@@ -23,7 +23,7 @@ public class Kartica {
 
 
 	public Kartica(String brojKartice, String ime, int popust) {
-		super();
+		
 		this.brojKartice = brojKartice;
 		this.ime = ime;
 		this.popust = popust;
